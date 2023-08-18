@@ -1,0 +1,21 @@
+@mixin text($size, $line, $weight) {
+    font-size: $size;
+    line-height: $line;
+    font-weight: $weight;
+}
+
+@mixin heading-H1 {
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.4px;
+}
+
+@mixin text-desktop {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -0.2px;
+}
